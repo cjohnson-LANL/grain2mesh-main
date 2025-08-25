@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grain2mesh"
+version = "0.1.1"
+description = "Image-based grain partitioning and mesh generation pipeline."
+authors = [
+    { name = "Ryley Hill", email = "rghill@lanl.gov" },
+    { name = "Keegan Davis", email = "kdavis@lanl.gov"}
+]
+license = {text = "LANL"}
+requires-python = ">=3.9"
+readme = "README.md"
+dependencies = [
+    "numpy<2",
+    "scipy",
+    "matplotlib",
+    "scikit-image",
+    "opencv-python",
+    "torch",
+    "tqdm"
+]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra"
+testpaths = ["tests"]
+
+[tool.setuptools]
+zip-safe = false

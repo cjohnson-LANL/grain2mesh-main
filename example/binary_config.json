@@ -1,0 +1,12 @@
+{
+    "export_path": "./example/results/",
+    "image_basename": "./example/data/binary_example.npz",
+    "gaussian_sigma": 3,
+    "watershed_sigma": 1,
+    "peak_min_distance": 6,
+    "watershed_peak_threshold": 0.5,
+    "area_threshold": 100,
+    "min_spline_length": 4.0,
+    "inner_mesh_size": 8.0,
+    "boundary_mesh_size": 8.0
+}

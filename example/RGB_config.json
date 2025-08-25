@@ -1,0 +1,9 @@
+{
+    "export_path": "./example/results/",
+    "image_basename": "./example/data/RGB_example.png",
+    "gaussian_sigma": 7,
+    "area_threshold": 500,
+    "min_spline_length": 4.0,
+    "inner_mesh_size": 8.0,
+    "boundary_mesh_size": 8.0
+}
