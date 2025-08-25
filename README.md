@@ -46,18 +46,18 @@ conda install python=3.10
 Finally, install `grain2mesh` directly from the repository:
 
 ```bash
-pip install git+ssh://git@git.lanl.gov/rghill/grain2mesh.git
+pip install git+https://github.com/cjohnson-LANL/grain2mesh-main
 ```
 
 
 ### 2. Installation (via local clone and environment file)
 
-Clone the repository:
+<!-- Clone the repository:
 
 ```bash
 git clone git@git.lanl.gov:rghill/grain2mesh.git
 cd grain2mesh
-```
+``` -->
 
 Create and activate the conda environment from `environment.yml`:
 
